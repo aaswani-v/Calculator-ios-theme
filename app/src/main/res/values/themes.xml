@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Calculator1" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="colorPrimary">#ff9f0a</item>
+        <item name="colorPrimaryVariant">#ff6b00</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="colorSecondary">#30d158</item>
+        <item name="colorSecondaryVariant">#00a040</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="android:windowBackground">#@color/window_background</item>
+        <item name="android:statusBarColor">#1c1c1e</item>
+        <item name="android:navigationBarColor">#1c1c1e</item>
+    </style>
+
+    <style name="CalculatorButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="android:insetTop">6dp</item>
+        <item name="android:insetLeft">6dp</item>
+        <item name="android:insetRight">6dp</item>
+
+    </style>
+
+    <style name="CalculatorButton.Number">
+        <item name="android:textColor">@color/btn_text_dark</item>
+        <item name="android:backgroundTint">@color/btn_operator</item>
+    </style>
+
+    <style name="CalculatorButton.Operator">
+        <item name="android:textColor">@color/btn_text_dark</item>
+        <item name="android:backgroundTint">@color/btn_operator</item>"
+    </style>
+
+    <style name="CalculatorButton.Function">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/btn_operator</item>
+        <item name="android:backgroundTint">@color/btn_function</item>
+    </style>
+
+</resources>
